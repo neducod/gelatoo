@@ -1,0 +1,945 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+   /* background-color: rgb(250, 218, 94);*/
+   background-color: white;
+ /*  background: transparent;*/
+}
+.pop-up{
+    display: flex;
+    background-color: rgb(45, 43, 43);
+    height: 50px;
+    padding-top: 16px;
+    justify-content: center;
+}
+
+.pop-up p{
+    color: white;
+    margin-right: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+   background-color: rgb(250, 218, 94);
+   /* color: white;*/
+
+    color: rgb(52, 52, 52);
+  }
+
+.navbar .left, .navbar .right {
+    display: flex;
+    align-items: center;
+
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(52, 52, 52);
+  }
+
+.navbar .left a, .navbar .right a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(52, 52, 52);
+  }
+  .navbar .middle {
+    font-size: 52px;
+    font-weight: bold;
+    font-family: "Moon Dance", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.header{
+    background-color: rgb(250, 218, 94);
+    height: 900px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.header img{
+    width: 300px;
+    margin-top: 150px;
+    display: block;
+    padding-left: 550px;
+}
+
+.header .over-lay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.over-lay{
+    padding-top: 400px;
+}
+.over-lay h2{
+    font-family: "Titillium Web", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.over-lay h1{
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 120px;
+}
+
+.over-lay button{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(128, 128, 128);
+    border: 1px solid black;
+    color: black;
+    background-color: transparent;
+}
+
+.over-lay button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.mmm{
+    height: 50px;
+    background-color: rgb(250, 218, 94);
+}
+
+.menu{
+    display: flex;
+   /* background-color: rgb(250, 218, 94);*/
+   background-color: white;
+}
+
+.menu-image{
+  /*  padding: 15px;*/
+}
+
+.menu-text{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    place-content: center;
+    gap: 20px;
+    width: 100%;
+   /* height: 640px;*/
+}
+
+.menu-text h3{
+    font-family: "Titillium Web", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
+.menu-text p{
+    font-family: "Moon Dance", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+  color: rgb(52, 52, 52);
+}
+.menu-text h5{
+    width: 380px;
+    color: rgb(52, 52, 52);
+    font-style: normal;
+}
+
+#nmn{
+    width: 120px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid black;
+    font-family: "Titillium Web", system-ui;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+#nmn:hover{
+    background-color: black;
+    border: none;
+    color: white; 
+}
+/*.menu-text button{
+    width: 120px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid black;
+    font-family: "Titillium Web", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu-text button:hover{
+    background-color: black;
+    border: none;
+    color: white;
+}*/
+
+
+
+
+.order-online{
+    background-color: rgb(159, 226, 191);
+    height: 900px;
+}
+
+.order-online img{
+   /* width: 300px;*/
+   padding-top: 100px;
+    display: block;
+   padding-left: 400px;
+
+   /*position: fixed;
+   overflow: hidden;
+   z-index: 9999;*/
+}
+
+.order-online .second-over-lay{
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.second-over-lay{
+    padding-top: 3500px;
+    display: grid;
+    place-content: center;
+    gap: 50px;
+}
+.second-over-lay h3{
+    font-family: "Titillium Web", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding-left: 300px;
+}
+.second-over-lay h2{
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 120px;
+}
+.second-over-lay button{
+    width: 150px;
+    height: 50px;
+    /*background-color: rgb(128, 128, 128);*/
+    background-color: white;
+    border: none;
+    color: black;
+    margin-left: 250px;
+}
+.second-over-lay button:hover{
+    background-color: black;
+    color: white;
+}
+
+.our-place{
+    display: flex;
+}
+
+.our-place-text{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    place-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.our-place-text h4{
+    font-family: "Titillium Web", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+.our-place-text h5{
+    font-family: "Moon Dance", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+   
+}
+
+.our-place-text p{
+    font-style: normal;
+  color: rgb(52, 52, 52);
+  width: 300px;
+}
+.our-place img{
+    height: 600px;
+}
+#nmn{
+    width: 120px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid black;
+    font-family: "Titillium Web", system-ui;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+#nmn:hover{
+    background-color: black;
+    border: none;
+    color: white; 
+}
+
+
+.order-online-two{
+    background-color: rgb(255, 182, 193);
+    height: 800px;
+}
+
+.order-online-two img{
+    width: 800px;
+   padding-top: 130px;
+    display: block;
+   padding-left: 300px;
+}
+
+.order-online-two .second-over-lay-two{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.second-over-lay-two{
+    padding-top: 6500px;
+    display: grid;
+    place-content: center;
+    gap: 50px;
+}
+.second-over-lay-two h3{
+    font-family: "Titillium Web", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding-left: 300px;
+}
+.second-over-lay-two h2{
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 120px;
+}
+.second-over-lay-two button{
+    width: 150px;
+    height: 50px;
+    /*background-color: rgb(128, 128, 128);*/
+    background-color: white;
+    border: none;
+    color: black;
+    margin-left: 250px;
+}
+.second-over-lay-two button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+.dessrts{
+    display: flex;
+}
+
+.dessrts img{
+    height: 600px;
+}
+
+.dessrts-text{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    place-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.dessrts-text h4{
+    font-family: "Titillium Web", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+.dessrts-text h5{
+    font-family: "Moon Dance", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+   
+}
+
+.dessrts-text p{
+    font-style: normal;
+  color: rgb(52, 52, 52);
+  width: 300px;
+}
+
+#nmn{
+    width: 120px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid black;
+    font-family: "Titillium Web", system-ui;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+#nmn:hover{
+    background-color: black;
+    border: none;
+    color: white; 
+}
+
+#hash{
+    display: grid;
+    place-items: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.scroll-container{
+    background-color: white;/*#fbf8f8;*/
+  overflow: auto;
+  white-space: nowrap;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 500px;
+    display: grid;
+    place-items: center;
+}
+
+.first-line{
+    display: flex;
+    gap: 200px;
+}
+
+.footer-a{
+    display: flex;
+    gap: 60px;
+}
+
+.footer-b input{
+    width: 240px;
+    height: 30px;
+}
+
+.footer-b button{
+    width: 240px;
+    height: 30px;
+    /*background-color: rgb(128, 128, 128);*/
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Style for the pop-up background */
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Pop-up content */
+.popup-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+
+/* Close button (X) */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #aaa;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: #000;
+}
+
+
+
+.footer-bb input{
+    width: 20px;
+    background: transparent;
+}
+
+#checkbox{
+    background-color: transparent;
+}
+.second-line{
+    display: flex;
+    gap: 300px;
+}
+
+
+
+
+
+
+
+
+/*EXTRA TOUCHES*/
+
+
+/* Style for the pop-up background */
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Pop-up content */
+.popup-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+
+
+/* Close button (X) */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #aaa;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#orderLink {
+    text-decoration: none;
+}
+
+/* Style for the pop-up background */
+.order-popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.6); /* Black background with opacity */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Pop-up content */
+.order-popup-content {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+/* Close button (X) */
+.order-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #aaa;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.order-close-btn:hover {
+    color: #000;
+}
+
+
+
+/*SUBSCRIBE*/
+
+/* Style for the pop-up background */
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Pop-up content */
+.popup-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+
+
+/* Close button (X) */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #aaa;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: #000;
+}
+
+
+
+
+/* Style for the pop-up background */
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Pop-up content */
+.popup-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+
+
+/* Close button (X) */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #aaa;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#orderLink {
+    text-decoration: none;
+}
+
+/* Style for the pop-up background */
+.order-popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.6); /* Black background with opacity */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Pop-up content */
+.order-popup-content {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+/* Close button (X) */
+.order-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #aaa;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.order-close-btn:hover {
+    color: #000;
+}
+
+
+
+/*SUBSCRIBE*/
+
+
+
+/*RESPONSIVENESS*/
+@media only screen and (max-width: 600px) {
+
+
+
+
+    .navbar{
+        display: none;
+    }
+
+
+
+
+
+    .header{
+        height: 590px;
+    }
+    .header img{
+        width: 120px;
+        margin-top: 110px;
+        padding-left: 150px;
+    }
+    .over-lay{
+        padding-top: 0px;
+    }
+    .over-lay h2{
+        font-size: 15px;
+    }
+    .over-lay h1{
+        font-size: 40px;
+    }
+    .menu{
+        flex-direction: column-reverse;
+    }
+    .menu-image img{
+        display: block;
+        max-width: 100%;
+    }
+    .menu-text{
+        gap: 10px;
+        text-align: center;
+    }
+    .menu-text h5{
+        font-size: 14px;
+        width: 280px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        font-weight: 100;
+    }
+    #nmn{
+        margin-left: 60px;
+        width: 150px;
+        height: 40px;
+        margin-bottom: 50px;
+    }
+    .order-online{
+        height: 500px;
+        display: none;
+    }
+    .order-online img{
+        padding-top: 10px;
+        width: 100px;
+    }
+    .second-over-lay{
+        top: 50%;
+        left: 50%;
+        font-size: 5px;
+    }
+    .second-over-lay h3{
+        font-size: 10px;
+    }
+    .second-over-lay h2{
+        font-size: 10px;
+    }
+    .our-place{
+        display: none;
+        flex-direction: column;
+    }
+    .our-place img{
+        display: block;
+        width: 100%;
+        height: 350px;
+    }
+    .order-online-two{
+        height: 300px;
+        display: none;
+    }
+    .order-online-two img{
+        width: 100%;
+        display: block;
+        padding-left: 1px;
+        padding-top: 90px;
+    }
+    .order-online-two .second-over-lay-two{
+        color: black;
+    }
+    .dessrts{
+        display: none;
+        flex-direction: column;
+    }
+    .dessrts img{
+        height: 300px;
+    }
+    .dessrts-text{
+        gap: 10px;
+    }
+    .dessrts-text h4{
+        font-size: 10px;
+    }
+    .dessrts-text h5{
+        font-size: 10px;
+    }
+    .dessrts-text p{
+        font-size: 10px;
+    }
+
+
+
+
+    .clean-spacepic img{
+        width: 100%;
+        display: block;
+    }
+
+
+    #hash{
+        height: 100px;
+    }
+
+
+
+
+
+    .scroll-container img{
+        width: 100%;
+        display: block;
+    }
+
+
+
+
+
+
+
+    footer{
+        height: 430px;
+        padding-top: 20px;
+        width: 100%;
+    }
+    .first-line{
+        gap: 35px;
+        flex-direction: column;
+    }
+    .footer-a{
+        font-size: 14px;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .footer-b input{
+        width: 120px;
+        height: 15px;
+    }
+    .footer-b button{
+        width: 100px;
+        height: 20px;
+    }
+    .footer-bb label{
+        font-size: 13px;
+    }
+    .second-line{
+        gap: 40px;
+    }
+}

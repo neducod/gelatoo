@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+   /* background-color: rgb(250, 218, 94);
+   background-color: white;*/
+   background: transparent;
+}
+.pop-up{
+    display: flex;
+    background-color: rgb(128, 128, 128);
+    height: 50px;
+    padding-top: 16px;
+    justify-content: center;
+}
+
+.pop-up p{
+    color: white;
+    margin-right: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(250, 218, 94);
+   /* color: white;*/
+
+    color: rgb(52, 52, 52);
+  }
+
+.navbar .left, .navbar .right {
+    display: flex;
+    align-items: center;
+
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(52, 52, 52);
+  }
+
+.navbar .left a, .navbar .right a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(52, 52, 52);
+  }
+  .navbar .middle a {
+    font-size: 52px;
+    font-weight: bold;
+    font-family: "Moon Dance", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+  }
+
+  .navbar .middle:hover{
+    text-decoration: none;
+  }
+
+  #hero{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(159, 226, 191);
+  }
+
+.hero-child{
+    text-align: center;
+}
+.hero-child h3{
+    font-family: "Titillium Web", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+}
+
+.hero-child h2{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 120px;
+    color: white;
+}
+
+
+#menu{
+    height: 100%;
+    width: 100%;
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(900px, 4fr));
+  gap: 20px;
+    background-color: antiquewhite;
+}
+#menu .menu-text{
+    padding-top: 50px;
+    text-align: center;
+}
+
+#menu .menu-text h3{
+
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(52, 52, 52);
+  font-size: 30px;
+}
+
+
+.menu-imgs{
+    padding-left: 300px;
+}
+
+.menu-imgs-child-one{
+    display: flex;
+}
+
+.menu-imgs-child-a{
+
+}
+
+.menu-imgs-child-a img{
+    width: 250px;
+}
+
+.menu-imgs-child-a h5{
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(52, 52, 52);
+  font-size: 20px;
+}
+
+.menu-imgs-child-a h1{
+    font-family: "Titillium Web", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.menu-imgs-child-a button{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.menu-imgs-child-b{
+}
+
+.menu-imgs-child-b img{
+    width: 310px;
+}
+
+.menu-imgs-child-b h5{
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(52, 52, 52);
+  font-size: 20px;
+
+
+}
+
+.menu-imgs-child-b h1{
+    font-family: "Titillium Web", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.menu-imgs-child-b button{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+
+}
+
+.menu-imgs-child-c img{
+    width: 220px;
+}
+
+
+.menu-imgs-child-c h5{
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(52, 52, 52);
+  font-size: 20px;
+}
+
+.menu-imgs-child-c h1{
+    font-family: "Titillium Web", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.menu-imgs-child-c button{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 500px;
+    display: grid;
+    place-items: center;
+}
+
+.first-line{
+    display: flex;
+    gap: 200px;
+}
+
+.footer-a{
+    display: flex;
+    gap: 60px;
+}
+
+.footer-b input{
+    width: 240px;
+    height: 30px;
+}
+
+.footer-b button{
+    width: 240px;
+    height: 30px;
+    /*background-color: rgb(128, 128, 128);*/
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.footer-bb input{
+    width: 20px;
+    background: transparent;
+}
+
+#checkbox{
+    background-color: transparent;
+}
+.second-line{
+    display: flex;
+    gap: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#orderLink {
+    text-decoration: none;
+}
+
+/* Style for the pop-up background */
+.order-popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.6); /* Black background with opacity */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Pop-up content */
+.order-popup-content {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+/* Close button (X) */
+.order-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #aaa;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.order-close-btn:hover {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Pop-up content */
+.popup-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+
+
+/* Close button (X) */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #aaa;
+    font-size: 24px;
+    cursor: pointer;
+}
